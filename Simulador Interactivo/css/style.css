@@ -1,4 +1,15 @@
-body{
-    background-color: rgb(76, 175, 188);
+body {
+    background-color: rgb(62, 140, 192);
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header div{
+    width: 100%;
+    background-color: whitesmoke;
+}

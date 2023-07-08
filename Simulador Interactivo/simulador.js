@@ -8,29 +8,31 @@ function club() {
         if (socio === 1) {
             let des1 = cuota - (cuota * 0.05)
             alert("Tenes el 5% de descuento en tu abono! El total a abonar de este semestre es de " + des1)
-            prompt("Queres consultar sobre otra descuento??")
+            break
+            
 
 
         }
         else if (socio === 2) {
             let des2 = cuota - (cuota * 0.10)
             alert("Tenes el 10% de descuento en tu abono! El total a abonar de este semestre es de " + des2)
-
+            break
 
 
 
         } else if (socio === 3) {
             let des3 = cuota - (cuota * 0.15)
             alert("Tenes el 15% de descuento en tu abono! El total a abonar de este semestre es de " + des3)
-
+            break
 
         } else if (socio === 4) {
             let des4 = cuota - (cuota * 0.20)
             alert("Tenes el 20% de descuento en tu abono! El total a abonar de este semestre es de " + des4)
-
+           break
 
         }
 
+        
 
 
     }
