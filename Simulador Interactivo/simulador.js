@@ -1,12 +1,12 @@
 //declaracion de variables para el socio que refiere y las cuotas.
 
 function club() {
-/* 
+
     let socio;
     const cuota = 40000
 
     while (true) {
-        socio = prompt(`Bienvenido a la pagina del club atletico Belgrano.
+        socio = prompt(`Bienvenido a la seccion de Socios Referidos del club atletico Belgrano.
         \nIngresa la cantidad de socios que referiste (Hasta 4 referidos por socio) por cada socio referido tenes un 5% de descuento en tu abono semestral
         \n¿Cuantos socios referiste?
         \n Ingresa el numero de socios referidos, y conoce tu descuento!`)
@@ -49,26 +49,8 @@ function club() {
         } else {
             break;
         }
-    } */
+    }
 
-    let amorchis;
-
-    while(true){
-        amorchis = prompt("Es usted un amorchis? SI/NO")
-
-        if (amorchis == "" || amorchis === " "){
-            alert("No ingresaste nada... extraño")
-        }else if(amorchis === null) {
-            alert("naaa no seas mala, pone si")
-        }
-
-        if(amorchis === "si"){
-            alert("Eres muy preciosa")
-            break
-        }else if(amorchis === "no"){
-            alert(" Si, si si lo sos, y solo podras irte de aca si dices que Si jaajajaj.")
-        }
-    }   
 
 
 }
